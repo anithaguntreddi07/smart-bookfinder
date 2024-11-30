@@ -33,7 +33,7 @@ all the screenshots of the app can be senn in screenshots folder
 
 ---
 
-## 📄 How It Works
+##  How It Works
 
 1. **Search for Books**: Users can type a keyword in the search bar, which triggers a call to the Google Books API to fetch results.
 2. **Favorites Management**: Books can be added to the Favorites list, and they are saved for easy access.
