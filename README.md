@@ -103,12 +103,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/book-finder-app.git
+   git clone https://github.com/anithaguntreddi07/smart-bookfinder.git
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd book-finder-app
+   cd book-finder
    ```
 
 3. Install dependencies:
