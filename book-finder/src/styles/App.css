@@ -1,0 +1,57 @@
+/* Default (Light Mode) Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Light text color */
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 20px; /* Positions 20px from the bottom */
+  left: 20px;  /* Positions 20px from the left */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensures the button is always on top */
+}
+
+.theme-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .book-card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode .theme-toggle {
+  background-color: #ffc107;
+}
+ 
+body.dark-mode .theme-toggle:hover {
+  background-color: #e0a800;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

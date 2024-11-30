@@ -1,0 +1,71 @@
+/* Light Mode Styles (default) */
+.favorite-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(25% - 15px);
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #f8f9fa; /* Light background */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.favorite-item img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.favorite-details h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.favorite-details p {
+  margin: 5px 0;
+  color: #555; /* Light text color */
+}
+
+.remove-favorite-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-favorite-btn:hover {
+  background-color: #c82333;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .favorite-item {
+  background-color: #1e1e1e; /* Dark background */
+  border: 1px solid #333; /* Darker border */
+  color: white;
+}
+
+body.dark-mode .favorite-details p {
+  color: #bbb; /* Lighter text for better contrast in dark mode */
+}
+
+body.dark-mode .remove-favorite-btn {
+  background-color: #ff4d4d; /* Brighter red for better contrast */
+}
+
+body.dark-mode .remove-favorite-btn:hover {
+  background-color: #e60000; /* Darker hover effect for contrast */
+}
