@@ -29,25 +29,7 @@ The **Book Finder Application** is a React-based web app that allows users to se
 
 ## Screenshots
 
-### 1. **Home Page - Search Bar Centered**
-![Home Page](path/to/screenshot1.png)  
-*The search bar is prominently placed in the center of the screen, ready to accept book queries.*
-
-### 2. **Search Results Display**
-![Search Results](path/to/screenshot2.png)  
-*After searching, the results are displayed as cards containing the book’s title, author, and cover image.*
-
-### 3. **Favorites Page**
-![Favorites Page](path/to/screenshot3.png)  
-*Users can view their favorite books and remove them if desired.*
-
-### 4. **Dark Mode Feature**
-![Dark Mode](path/to/screenshot4.png)  
-*Toggle between dark and light modes for a better reading experience.*
-
-### 5. **Mobile Responsive View**
-![Mobile View](path/to/screenshot5.png)  
-*The app is fully responsive and adapts to smaller screen sizes.*
+all the screenshots of the app can be senn in screenshots folder 
 
 ---
 
@@ -60,34 +42,62 @@ The **Book Finder Application** is a React-based web app that allows users to se
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
-src/
+Book-Finder/
 │
-├── components/
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   └── SearchBar.jsx
+├── public/
+│   └── index.html
 │
-├── pages/
-│   ├── HomePage.jsx
-│   └── FavoritesPage.jsx
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── BookCard.jsx
+│   │   ├── BookDetail.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Pagination.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── context/
+│   │   └── FavoritesContext.js
+│   │
+│   ├── hooks/
+│   │   └── useFetchBooks.js
+│   │
+│   ├── pages/
+│   │   ├── favoritesPage.jsx
+│   │   └── HomePage.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── BookCard.css
+│   │   ├── BookDetail.css
+│   │   ├── favoritesPage.css
+│   │   ├── Footer.css
+│   │   ├── Header.css
+│   │   ├── HomePage.css
+│   │   ├── Pagination.css
+│   │   ├── SearchBar.css
+│   │   └── ThemeToggle.css
+│   │
+│   ├── App.js
+│   └── index.js
 │
-├── context/
-│   └── FavoritesContext.js
-│
-├── api/
-│   └── fetchBooks.js
-│
-└── styles/
-    ├── App.css
-    └── SearchBar.css
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🖥️ Installation and Setup
+## Installation and Setup
 
 To run this project locally, follow these steps:
 
